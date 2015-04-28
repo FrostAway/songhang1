@@ -1,0 +1,614 @@
+/*
+ * |---:[Đoạn này sẽ chứa các đoạn giới thiệu và thông tin về theme, như tên theme (Theme Name), tên tác giả (Theme Author), địa chỉ của tác giả (Author URI),...]:---|
+ 
+ * Theme Name: SongHang Theme
+ * Description: Theme của Pitado làm cho máy bay Song Hằng
+ * Theme URI: 
+ * Version: 1.0
+ * Theme Author: manhvu1212
+ * Author URI: 
+ * Tags: 
+ * Text-domain:
+ */
+ 
+body {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    background-image: url(images/background/anh-nen-02.jpg);
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+	.sh-container {
+		width: 980px;
+	}
+}
+
+.sh-container{
+	background-color: white;
+	position: relative;
+}
+
+.sh-container-header {
+	padding: 0px;
+}
+
+.sh-header {
+	height: 175px;
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	.sh-header .sh-header-bg {
+		margin-left: -50px
+	}
+	
+	.sh-header .sh-header-logo {
+		margin-left: 0px !important;
+	}
+}
+
+.sh-header .sh-header-bg {
+	height: 100%;
+	width: auto;
+}
+
+.sh-header .sh-header-logo {
+	position: static;
+	margin-top: -220px;
+	margin-left: 25px;
+}
+
+.sh-navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border: none;
+	position: static;
+	margin-top: -98px;
+	background: -webkit-linear-gradient(#085aac, #0079c6);
+	background: -o-linear-gradient(#085aac, #0079c6);
+	background: -moz-linear-gradient(#085aac, #0079c6);
+	background: linear-gradient(#085aac, #0079c6);
+}
+
+.sh-navbar a {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11.5px;
+}
+
+@media (max-width: 1024px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse .collapse {
+		display: none !important;
+	}
+	.navbar-collapse .in  {
+		display: block !important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.sh-collapse {
+		text-align: right;
+		padding-top: 18px;
+	}
+	.sh-navbar-toggle{
+		color: white;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: 1024px) {
+	.sh-collapse {
+		padding-right: 0px;
+	}
+}
+
+.sh-navbar a:hover {
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+}
+
+.sh-navbar .active a {
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+}
+
+.sh-header-text {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fa9701;
+	font-weight: 500;
+	line-height:50px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.sh-header-hotline {
+	position: absolute;
+	right: 10%;
+	top: 10px;
+	display: none;
+}
+
+@media (min-width:992px) {
+	.sh-header-hotline {
+		display: block;
+	}
+}
+
+.sh-header-hotline-content {
+	float: left;
+}
+
+.sh-header-hotline-content img {
+	margin: 0 10px 0 50px;
+}
+
+.sh-header-hotline-content div{
+	line-height: 14px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fa9701;
+}
+
+.sh-col {
+	margin-bottom: 30px;
+}
+
+.sh-partners {
+	background-color: white;
+	border-top: 3px solid #cccccc;
+	height: 150px;
+	line-height: 150px;
+	width: 100%;
+}
+
+.sh-partners img {
+	width: 100%;
+	
+}
+
+.logo-slideshow {
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.sh-book-form{
+	background: -webkit-linear-gradient(#085aac, #0079c6);
+	background: -o-linear-gradient(#085aac, #0079c6);
+	background: -moz-linear-gradient(#085aac, #0079c6);
+	background: linear-gradient(#085aac, #0079c6);
+	border-radius: 15px 15px 0 0;
+	height: 100%;
+	padding: 15px;
+}
+
+@media (min-width:992px){
+	.sh-book-form{
+		border-radius: 15px 0 0 15px;
+		height: 319px;
+	}
+}
+
+@media (min-width:992px) {
+	.sh-slide {
+		padding-left: 0px;
+	}
+	
+	.sh-book {
+		padding-right: 0px;
+	}
+}
+
+.sh-title-content {
+	background: -webkit-linear-gradient(#085aac, #0079c6);
+	background: -o-linear-gradient(#085aac, #0079c6);
+	background: -moz-linear-gradient(#085aac, #0079c6);
+	background: linear-gradient(#085aac, #0079c6);
+	border-radius: 15px 15px 0 0;
+	line-height: 50px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.sh-title-content a {
+	color: white;
+}
+
+.number-format {
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 30px;
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+}
+
+.sh-forms-book-ticket-encircled {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #cccccc;
+	border-radius: 0 0 15px 15px;
+}
+
+.sh-forms-book-ticket {
+	padding: 10px 0 10px 0;
+	margin: 0;
+	
+}
+
+.sh-forms-book-ticket:not(:last-child) {
+	border-bottom: 1px solid #cccccc;
+}
+
+.sh-content-format {
+	line-height: 27px;
+	font-size: 14px;
+}
+
+.sh-hotline {
+	color: #085aac;
+	font-weight: bold;
+}
+
+.sh-hotline a {
+	font-weight: normal;
+	color: #fa9701;
+}
+
+.image-format {
+	text-align: center;
+}
+
+.image-format img{
+	width: 100%;
+}
+
+@media (max-width:768px) {
+	.image-format img{
+		width: 50%;
+	}
+}
+
+.sh-forms-book-ticket-image img {
+	width: 100%;
+	padding: 15px;
+	margin-top: 17px;
+}
+
+.sh-forms-book-ticket-map {
+	padding: 15px;
+	margin-top: 20px;
+}
+
+.sh-list-ticket {
+	padding: 6px 0 6px 0;
+	margin: 0;
+}
+
+.sh-list-ticket a {
+	color: black;
+}
+
+.sh-list-ticket:nth-child(even) {
+	background-color: #f8fcff;
+}
+
+.sh-book-ticket-encircled {
+	padding-bottom: 15px;
+	border: 1px solid #cccccc;
+	border-radius: 0 0 15px 15px;
+}
+
+.footer {
+	position: relative;
+}
+
+.sh-footer {
+	color: white;
+	padding: 40px 60px 0px 60px;
+}
+
+.sh-footer img {
+	width: 100%;
+}
+
+.sh-footer-text-first {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.sh-footer-text {
+	margin-top: 10px;
+}
+
+.border-line {
+	border: 1px solid white;
+}
+
+.sh-footer-container {
+	background: -webkit-linear-gradient(#085aac, #0079c6);
+	background: -o-linear-gradient(#085aac, #0079c6);
+	background: -moz-linear-gradient(#085aac, #0079c6);
+	background: linear-gradient(#085aac, #0079c6);
+}
+
+.sh-copyright {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.form-sub {
+	background-image: url(images/body/formsub-1.png);
+	width: 100%;
+	height: 300px;
+}
+
+.sh-footer-content {
+	margin-bottom: 20px;
+}
+
+.main-content {
+	padding: 0 30px;
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+.sh-page-content {
+	padding-bottom: 20px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.sh-page-content p {
+	line-height: 40px;
+}
+
+.sh-contact {
+	margin-top: 20px;
+}
+
+.contact-form {
+	width: 100%;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email] {
+	width: 100%;
+}
+
+.contact-form textarea {
+	width: 100%;
+	max-width: 100%;
+}
+
+.contact-form input[type=submit] {
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+	color: white;
+	border: none;
+	text-transform: uppercase;
+}
+
+.sh-col-tour {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sh-post {
+	margin-bottom: 20px;
+}
+
+.sh-post-content {
+	float: left;
+}
+
+.sh-title {
+	background-color:#F1F1EC;
+	border: 1px solid #dcdcdc;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.sh-thumbnail {
+	text-align:center;
+	border-right: 1px solid #dcdcdc;
+	border-left: 1px solid #dcdcdc;
+	width: 30%;
+	padding: 0 3px;
+}
+
+.sh-title-excerpt {
+	width: 70%;
+}
+
+.sh-thumbnail img {
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+}
+
+.sh-excerpt {
+	text-align: justify;
+	border-bottom: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+	border-left: 1px solid #dcdcdc;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.entry-content {
+	text-align: justify;
+	font-size: 16px;
+}
+
+.entry-content div {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.sh-banner {
+	position: absolute;
+	top:15%;
+	z-index: -1;
+}
+
+.sh-banner img {
+	margin-bottom: 40px;
+}
+
+.sh-banner-left {
+	left: 5px;
+}
+
+.sh-banner-right {
+	right: 5px;
+}
+
+.sh-tour-hot {
+	
+}
+
+.sh-tour-hot-image img {
+	width: 100%;
+}
+
+.sh-tour-hot-price-register {
+	float: left;
+	width: 50%;
+}
+
+.sh-tour-hot-price {
+	text-decoration: line-through;
+	font-size: 15px;
+}
+
+.sh-tour-hot-price-sale {
+	font-weight: bold;
+	color: #fa9701;
+	font-size: 17px
+}
+
+.sh-tour-hot-btn-register {
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+	border-radius: 7px;
+	color: white;
+	height: 40px;
+	width: 80px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	float: right;
+}
+
+.sh-tour-hot-info {
+	margin:10px 0;
+}
+
+.sh-tour-hot-info-db {
+	color: #fa9701;
+	font-weight: bold;
+}
+
+#navbar  li{
+	list-style: none;
+}
+
+#navbar li.parent::after{
+	content:'+';
+}
+
+#navbar  .sub-menu {
+	padding: 0;
+	width: 150px;
+	line-height: 50px;
+	display: block;
+	position: absolute;
+	background: -webkit-linear-gradient(#085aac, #0079c6);
+	background: -o-linear-gradient(#085aac, #0079c6);
+	background: -moz-linear-gradient(#085aac, #0079c6);
+	background: linear-gradient(#085aac, #0079c6);
+        z-index: 100;
+}
+
+#navbar  li:hover>.sub-menu{
+    display: block;
+	line-height: 50px;
+    width: 150px;
+    height: auto;
+    border: solid 1px #BBBBBB;
+	background: -webkit-linear-gradient(#fa9701, #fa8601);
+	background: -o-linear-gradient(#fa9701, #fa8601);
+	background: -moz-linear-gradient(#fa9701, #fa8601);
+	background: linear-gradient(#fa9701, #fa8601);
+}
+
+.sh-contact-border {
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.div.responsive img { width: auto; height: auto }
+
+.sh-news-border {
+	border: 1px solid #cccccc;
+	padding: 5px;
+}
+
+.sh-post-container {
+	margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
